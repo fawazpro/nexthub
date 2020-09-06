@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+.bgBack {
+  height: 90vh;
+  background: url(/images/bg.jpg) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.nav-menu {
+  background: rgb(99, 206, 108);
+  padding: 0px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.nav-item {
+  cursor: pointer;
+  transition: color 0.4s linear;
+  position: relative;
+}
+.nav-item:hover {
+  color: rgb(255, 40, 40) !important;
+}
+.headingBG {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+.heading {
+  font-size: 80px;
+  font-weight: 700;
+  color: rgb(99, 206, 108);
+  text-shadow: 2px 2px 4px #000000;
+}
+.heading2 {
+  font-size: 40px;
+}
+.btnCustom {
+  border-color: rgb(99, 206, 108);
+  transition: background-color 0.4s;
+  background-color: rgb(255, 255, 255);
+  color: rgb(99, 206, 108);
+  font-weight: 600;
+}
+.btnCustom:hover {
+  background-color: rgb(99, 206, 108);
+  color: #ffffff;
+}
+
+/* about Us */
+.aboutUs {
+  background-color: rgb(99, 206, 108);
+}
+/* end of about Us */
+.breen {
+  background-color: rgb(99, 206, 108);
+}
+.breenText {
+  color: rgb(99, 206, 108);
+}
+
+/* Footer */
+.contacte h4 {
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.contacte div {
+  display: flex;
+  color: #ffffff;
+}
+.emailer h4 {
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.Neede h4 {
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.Neede ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.Neede ul li a:hover {
+  color: rgb(94, 118, 224);
+}
+.helpe h4 {
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.helpe p {
+  color: #ffffff;
+}
+/* end of Footer */
